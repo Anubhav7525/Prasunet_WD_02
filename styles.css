@@ -1,0 +1,33 @@
+body{
+    background-color:rgb(105, 91, 91) ;
+}
+#stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    color: whitesmoke;
+}
+
+#display {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: blanchedalmond;
+    border: 3px solid red;
+    border-radius: 20px 20px;
+    /* box-shadow: 0px,0px,30px,30px rgb(105, 91, 91); */
+    box-shadow: 5px 5px #888888;
+}
+
+#laps {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
